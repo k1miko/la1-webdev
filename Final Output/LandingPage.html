@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> One Piece x Hungry Days</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <section>
+            <div class="circle"></div>
+            <header>
+            <a href="#"> <img src="logo.png" class="logo"> </a>
+            <ul>
+            <li> <a href="AlpaparaLandingPage.html" class="link"> Home </a> </li>
+            <li> <a href="https://www.cupnoodle.jp/cm/" target="_blank" rel="noopener noreferrer" class="link"> Products </a> </li>
+            <li> <a href="gallery.html" class="link"> Gallery </a> </li>
+            <li> <a href="#" class="link"> Contact </a> </li>
+            </ul>
+            </header>
+            <div class="content">
+                <div class="textBox">
+                <h2> ONE PIECE: Youth </h2>
+                <p> "Hungry Days" is an advertisement campaign created by Japanese food company Nissin Foods to promote their instant noodle brands. Nissin collaborated with One Piece to release a series of animated commercials from May 2019 to February 2020. </p>
+                <a href="https://onepiece.fandom.com/wiki/Hungry_Days" target="_blank" rel="noopener noreferrer"> Learn More </a>
+                </div>
+                <div class="imgBox">
+                    <img src="zoro.png" class="noodles">
+                    </div>
+                </div>
+                <ul class="thumb">
+                    <li> <img src="thumb1.png" onclick="imgSlider('zoro.png');changeCircleColor('rgb(54, 153, 107)')"> </li>
+                    <li> <img src="thumb2.png" onclick="imgSlider('nami.png');changeCircleColor('rgb(153, 94, 54)')"> </li>
+                    <li> <img src="thumb3.png" onclick="imgSlider('war.png');changeCircleColor('rgb(153, 54, 54)')"> </li>
+                    </ul>
+                    <ul class="sci">
+                        <li> <a href="https://www.youtube.com/watch?v=NO5H_5HgDhk" target="_blank" rel="noopener noreferrer" class="ooh"><img src="youtube.png"></a></li>
+                        <li> <a href="https://nissinfoods.com/products/cup-noodles" target="_blank" rel="noopener noreferrer" class="ooh"><img src="globe.png"></a></li>
+                        <li> <a href="https://twitter.com/eiichiro_staff?lang=en" target="_blank" rel="noopener noreferrer" class="ooh"><img src="twitter.png"></a></li>
+                        </ul>
+            </section>
+            <script type="text/javascript">
+                function imgSlider(anything) {
+                document.querySelector('.noodles').src = anything;
+                }
+                function changeCircleColor(color) {
+const circle = document.querySelector('.circle');
+circle.style.background = color;
+}
+                </script>
+    </body>
+</html>
