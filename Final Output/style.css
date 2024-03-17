@@ -198,3 +198,64 @@ header ul li a {
     .ok1 img:hover {
     transform: scale(1.1);
     }
+
+.footer {
+    background-color: #1b1b1b;
+    color: #fff;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-links {
+    list-style: none;
+    display: flex;
+}
+
+.footer-links li {
+    margin-right: 20px;
+}
+
+.footer-links li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-icons a {
+    margin-left: 10px;
+}
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
+}
+
+.social-icons {
+    padding-top: 5px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons li {
+    margin: 0 10px;
+}
+
+.social-icons a {
+    display: inline-block;
+    transform: scale(0.6);
+    filter: invert(1);
+    transition: transform 0.3s;
+}
+
+.social-icons a:hover {
+    transform: scale(0.8);
+}
