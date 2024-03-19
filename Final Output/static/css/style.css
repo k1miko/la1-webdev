@@ -166,23 +166,24 @@ header ul li a {
     margin: 0 auto;
     display: block;
     font-size: 89px;
-    }
+}
 .main {
     justify-content: center;
     align-items: center;
 }
 .ok {
     margin: 10px 50px;
-    }
-    .ok img {
-    transition: 1s;
-    padding: 15px;
-    width: 200px;
-    }
-    
-    .ok img:hover {
-    transform: scale(1.1);
-    }
+}
+
+.ok img {
+transition: 1s;
+padding: 15px;
+width: 200px;
+}
+
+.ok img:hover {
+transform: scale(1.1);
+}
 .br {
     border-bottom: 2px solid black;
 }
