@@ -33,10 +33,10 @@ header .logo {
 header ul {
     position: relative;
     display: flex;
-    }
+}
 header ul li {
     list-style: none;
-    }
+}
 header ul li a {
     display: inline-block;
     color: black;
@@ -44,62 +44,63 @@ header ul li a {
     margin-left: 40px;
     text-decoration: none;
     font-size: 32px;
-    }
+}
 .content {
-        position: relative;
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        }
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .content .textBox {
-        position: relative;
-        max-width: 600px;
-        }
+    position: relative;
+    max-width: 600px;
+}
 .content .textBox h2 {
-            color: #333;
-            font-size: 4em;
-            line-height: 1.4em;
-            font-weight: 500;
-            }
+    color: #333;
+    font-size: 4em;
+    line-height: 1.4em;
+    font-weight: 500;
+}
 .content .textBox h2 {
-            color: #333;
-            }
+    color: #333;
+}
 .content .textBox a {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 8px 20px;
-            background: red;
-            color: white;
-            border-radius: 40px;
-            font-weight: 500;
-            letter-spacing: 1px;
-            text-decoration: none;
-            }
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: red;
+    color: white;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
 .content .imgBox {
-                width: 600px;
-                display: flex;
-                justify-content: flex-end;
-                padding-right: 50px;
-                margin-top: 50px;
-                }
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    margin-top: 50px;
+}
+
 .content .imgBox img{
-                max-width: 340px;
-                }
+    max-width: 340px;
+}
 .thumb {
-                    position: absolute;
-                    left: 50%;
-                    bottom: 20px;
-                    transform: translateX(-50%);
-                    display: flex;
-                    }
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+    display: flex;
+}
 .thumb li {
-                        list-style: none;
-                        display: inline-block;
-                        margin: 0 20px;
-                        cursor: pointer;
-                        transition: 0.5s;
-                        }
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
 .thumb li:hover {
     transform: translateY(-15px);
 }
@@ -122,16 +123,16 @@ header ul li a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    }
+}
 .sci li {
     list-style: none;
-    }
+}
 .sci li a {
     display: inline-block;
     margin: 5px 0;
     transform: scale(0.6);
     filter: invert(1);
-    }
+}
 .sci li img {
     max-width: 60px;
 }
@@ -148,26 +149,26 @@ header ul li a {
     height: 100%;
     background: rgb(54, 153, 107);
     clip-path: circle(600px at right 800px);
-    }
+}
 .link::after {
-        content: '';
-        display: block;
-        width: 0;
-        height: 2px;
-        background: rgb(65, 103, 153);
-        transition: width .3s;
-        }
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: rgb(65, 103, 153);
+    transition: width .3s;
+}
 .link:hover::after {
-        width: 100%;
-        transition: width .3s;
-        }
+    width: 100%;
+    transition: width .3s;
+}
 .ooh::after {
     content: '';
-        display: block;
-        width: 0;
-        height: 2px;
-        background: rgb(65, 103, 153);
-        transition: width .3s;
+    display: block;
+    width: 0;
+    height: 2px;
+    background: rgb(65, 103, 153);
+    transition: width .3s;
 }
 .ooh:hover::after {
     width: 100%;
