@@ -106,6 +106,13 @@ header ul li a {
 .thumb li img {
     max-width: 60px;
 }
+
+.shopbody{
+    display: flex;
+    flex-direction: column;
+
+}
+
 .sci {
     position: absolute;
     top: 50%;
@@ -127,6 +134,11 @@ header ul li a {
     }
 .sci li img {
     max-width: 60px;
+}
+
+.textBox p{
+    text-justify: auto;
+    text-align: justify;
 }
 .circle {
     position: absolute;
@@ -186,19 +198,23 @@ transform: scale(1.1);
 }
 .br {
     border-bottom: 2px solid black;
+    width: 100%;
+    margin: 0px;
+    margin-bottom: 15px;
 }
 .ok1 {
     margin: 10px 50px;
-    }
-    .ok1 img {
+}
+
+.ok1 img {
     transition: 1s;
     padding: 15px;
     width: 230px;
-    }
+}
     
-    .ok1 img:hover {
+.ok1 img:hover {
     transform: scale(1.1);
-    }
+}
 
 .footer {
     background-color: #1b1b1b;

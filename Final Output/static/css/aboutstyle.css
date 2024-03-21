@@ -38,6 +38,11 @@ p {
     margin-bottom: 15px;
 }
 
+section{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .carousel {
     width: 100%;
 }
@@ -69,7 +74,7 @@ h2:hover {
 
 p {
     margin: 20px 0;
-    text-align: center;
+    text-align: justify;
     font-size: 1.4rem;
 }
 
