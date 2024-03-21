@@ -67,7 +67,11 @@ header ul li a {
 }
 .content .textBox a {
     display: inline-block;
-    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 15px;
+    width: 170px;
+    margin-right: 20px;
     padding: 8px 20px;
     background: red;
     color: white;
